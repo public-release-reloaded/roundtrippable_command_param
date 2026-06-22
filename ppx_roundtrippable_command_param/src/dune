@@ -6,5 +6,6 @@
  (ppx_runtime_libraries roundtrippable_command_param
    roundtrippable_command_param.roundtrippable_arg_type
    roundtrippable_command_param.ppx_runtime)
+ (flags (:standard -w -69))
  (preprocess
   (pps ppxlib.metaquot ppx_jane)))
