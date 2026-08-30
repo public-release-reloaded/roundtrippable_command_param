@@ -3,7 +3,7 @@
  (public_name roundtrippable_command_param.ppx_or_default)
  (kind ppx_rewriter)
  (libraries base ppx_bench.runtime-lib ppx_expect.runtime
-   ppx_module_timer.runtime ppxlib ppxlib_jane variantslib)
+   ppx_module_timer_runtime ppxlib ppxlib_jane variantslib)
  (ppx_runtime_libraries roundtrippable_command_param.or_default)
  (preprocess
   (pps ppx_jane -compare-require-explicit-locality -dont-apply=sexp_message

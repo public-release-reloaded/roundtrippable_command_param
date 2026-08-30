@@ -19,7 +19,7 @@ depends: [
   "ppx_bench" {>= "v0.18~" & < "v0.19~"}
   "ppx_expect" {>= "v0.18~" & < "v0.19~"}
   "ppx_jane" {>= "v0.18~" & < "v0.19~"}
-  "ppx_module_timer" {>= "v0.18~" & < "v0.19~"}
+  "ppx_module_timer_runtime" {>= "v0.18~" & < "v0.19~"}
   "ppxlib_jane" {>= "v0.18~" & < "v0.19~"}
   "profunctor" {>= "v0.18~" & < "v0.19~"}
   "univ_map" {>= "v0.18~" & < "v0.19~"}
